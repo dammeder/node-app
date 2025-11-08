@@ -1,7 +1,7 @@
 ARG NODE_VERSION=22
 ARG ALPINE_VERSION=3.21
 
-FROM node:${NODE_VERSION}-alpinr${ALPINE_VERSION}
+FROM node:${NODE_VERSION}-alpine${ALPINE_VERSION}
 
 # Use production node environment by defualt
 ENV NODE_ENV production
